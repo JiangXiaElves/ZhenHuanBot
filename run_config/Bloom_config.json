@@ -1,0 +1,22 @@
+{
+    "model_type": "bloom",
+    "model_name_or_path": "base_model/BLOOMZ_7B",
+    "data_path": "data_dir/zh_data.json",
+    "output_dir": "trained_models/bloomz_ckpt",
+    "batch_size": 32,
+    "per_device_train_batch_size": 4,
+    "num_epochs": 50,
+    "learning_rate": 8e-5,
+    "cutoff_len": 1024,
+    "val_set_size": 0,
+    "val_set_rate": 0.1,
+    "save_steps": 4000,
+    "eval_steps":1000,
+    "warmup_steps":10,
+    "logging_steps":10,
+    "weight_decay":0.001,
+    "warmup_rate":0.1,
+    "lr_scheduler":"linear",
+    "gradient_accumulation_steps": 8
+}
+  

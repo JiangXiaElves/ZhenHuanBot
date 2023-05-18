@@ -1,0 +1,234 @@
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+bin /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+bin /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('Asia/Shanghai')}
+  warn(msg)
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_w974vz2u/none_bdpaorzc/attempt_0/0/error.json')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so'), PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+CUDA SETUP: Loading binary /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('Asia/Shanghai')}
+  warn(msg)
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_w974vz2u/none_bdpaorzc/attempt_0/1/error.json')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so'), PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+CUDA SETUP: Loading binary /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('Asia/Shanghai')}
+  warn(msg)
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_w974vz2u/none_bdpaorzc/attempt_0/2/error.json')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0'), PosixPath('/usr/local/cuda/lib64/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+/root/miniconda3/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+CUDA SETUP: Loading binary /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+2023-05-18 14:00:54 - finetune.py[line:66] - INFO: args.__dict__ : {'model_config_file': 'run_config/Bloom_config.json', 'deepspeed': None, 'resume_from_checkpoint': False, 'lora_hyperparams_file': 'run_config/lora_hyperparams_bloom.json', 'use_lora': True, 'local_rank': None}
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_type : bloom
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_name_or_path : /root/autodl-tmp/jiangxia/base_model/BLOOMZ_7B
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: data_path : data_dir/zh_data.json
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: output_dir : trained_models/bloomz_ckpt
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: batch_size : 32
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: per_device_train_batch_size : 4
+2023-05-18 14:00:54 - finetune.py[line:66] - INFO: args.__dict__ : {'model_config_file': 'run_config/Bloom_config.json', 'deepspeed': None, 'resume_from_checkpoint': False, 'lora_hyperparams_file': 'run_config/lora_hyperparams_bloom.json', 'use_lora': True, 'local_rank': None}
+2023-05-18 14:00:54 - finetune.py[line:66] - INFO: args.__dict__ : {'model_config_file': 'run_config/Bloom_config.json', 'deepspeed': None, 'resume_from_checkpoint': False, 'lora_hyperparams_file': 'run_config/lora_hyperparams_bloom.json', 'use_lora': True, 'local_rank': None}
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: num_epochs : 50
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_type : bloom
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_type : bloom
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: learning_rate : 8e-05
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_name_or_path : /root/autodl-tmp/jiangxia/base_model/BLOOMZ_7B
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_name_or_path : /root/autodl-tmp/jiangxia/base_model/BLOOMZ_7B
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: cutoff_len : 1024
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: data_path : data_dir/zh_data.json
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: data_path : data_dir/zh_data.json
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_size : 0
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: output_dir : trained_models/bloomz_ckpt
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: output_dir : trained_models/bloomz_ckpt
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: batch_size : 32
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: batch_size : 32
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: save_steps : 4000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: per_device_train_batch_size : 4
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: per_device_train_batch_size : 4
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: eval_steps : 1000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: num_epochs : 50
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: num_epochs : 50
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: learning_rate : 8e-05
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: learning_rate : 8e-05
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: logging_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: cutoff_len : 1024
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: cutoff_len : 1024
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: weight_decay : 0.001
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_size : 0
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_size : 0
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: lr_scheduler : linear
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: save_steps : 4000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: save_steps : 4000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: gradient_accumulation_steps : 8
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: eval_steps : 1000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: eval_steps : 1000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: logging_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: logging_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: weight_decay : 0.001
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: weight_decay : 0.001
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: lr_scheduler : linear
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: lr_scheduler : linear
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: gradient_accumulation_steps : 8
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: gradient_accumulation_steps : 8
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_r : 8
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_alpha : 16
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_dropout : 0.05
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_target_modules : ['query_key_value']
+LoraConfig(peft_type=<PeftType.LORA: 'LORA'>, base_model_name_or_path=None, task_type='CAUSAL_LM', inference_mode=False, r=8, target_modules=['query_key_value'], lora_alpha=16, lora_dropout=0.05, merge_weights=False, fan_in_fan_out=False, enable_lora=None, bias='none', modules_to_save=None)
+/root/miniconda3/lib/python3.8/site-packages/peft/tuners/lora.py:173: UserWarning: fan_in_fan_out is set to True but the target module is not a Conv1D. Setting fan_in_fan_out to False.
+  warnings.warn(
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_r : 8
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_alpha : 16
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_dropout : 0.05
+2023-05-18 14:01:24 - finetune.py[line:150] - INFO: lora_target_modules : ['query_key_value']
+LoraConfig(peft_type=<PeftType.LORA: 'LORA'>, base_model_name_or_path=None, task_type='CAUSAL_LM', inference_mode=False, r=8, target_modules=['query_key_value'], lora_alpha=16, lora_dropout=0.05, merge_weights=False, fan_in_fan_out=False, enable_lora=None, bias='none', modules_to_save=None)
+/root/miniconda3/lib/python3.8/site-packages/peft/tuners/lora.py:173: UserWarning: fan_in_fan_out is set to True but the target module is not a Conv1D. Setting fan_in_fan_out to False.
+  warnings.warn(
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_r : 8
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_alpha : 16
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_dropout : 0.05
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_target_modules : ['query_key_value']
+LoraConfig(peft_type=<PeftType.LORA: 'LORA'>, base_model_name_or_path=None, task_type='CAUSAL_LM', inference_mode=False, r=8, target_modules=['query_key_value'], lora_alpha=16, lora_dropout=0.05, merge_weights=False, fan_in_fan_out=False, enable_lora=None, bias='none', modules_to_save=None)
+/root/miniconda3/lib/python3.8/site-packages/peft/tuners/lora.py:173: UserWarning: fan_in_fan_out is set to True but the target module is not a Conv1D. Setting fan_in_fan_out to False.
+  warnings.warn(
+Downloading and preparing dataset json/default to /root/.cache/huggingface/datasets/json/default-ae86c8fbb70435df/0.0.0/fe5dd6ea2639a6df622901539cb550cf8797e5a6b2dd7af1cf934bed8e233e6e...
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 7639.90it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 1231.45it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                        Dataset json downloaded and prepared to /root/.cache/huggingface/datasets/json/default-ae86c8fbb70435df/0.0.0/fe5dd6ea2639a6df622901539cb550cf8797e5a6b2dd7af1cf934bed8e233e6e. Subsequent calls will reuse this data.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 528.92it/s]
+DatasetDict({
+    train: Dataset({
+        features: ['instruction', 'input', 'output'],
+        num_rows: 3687
+    })
+})
+Found cached dataset json (/root/.cache/huggingface/datasets/json/default-ae86c8fbb70435df/0.0.0/fe5dd6ea2639a6df622901539cb550cf8797e5a6b2dd7af1cf934bed8e233e6e)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 297.45it/s]
+DatasetDict({
+    train: Dataset({
+        features: ['instruction', 'input', 'output'],
+        num_rows: 3687
+    })
+})
+Map:   0%|          | 0/3687 [00:00<?, ? examples/s]Map:   5%|▌         | 190/3687 [00:00<00:01, 1866.08 examples/s]Map:   0%|          | 0/3687 [00:00<?, ? examples/s]Map:  11%|█         | 389/3687 [00:00<00:01, 1935.06 examples/s]Map:   5%|▍         | 180/3687 [00:00<00:01, 1769.44 examples/s]Map:  16%|█▌        | 592/3687 [00:00<00:01, 1974.90 examples/s]Map:  10%|█         | 379/3687 [00:00<00:01, 1890.27 examples/s]Map:  21%|██▏       | 791/3687 [00:00<00:01, 1978.10 examples/s]Map:  18%|█▊        | 666/3687 [00:00<00:01, 1897.15 examples/s]Map:  27%|██▋       | 990/3687 [00:00<00:01, 1977.94 examples/s]Map:  23%|██▎       | 857/3687 [00:00<00:01, 1899.16 examples/s]Map:  33%|███▎      | 1221/3687 [00:00<00:01, 1782.59 examples/s]Map:  30%|██▉       | 1090/3687 [00:00<00:01, 1697.77 examples/s]Map:  38%|███▊      | 1415/3687 [00:00<00:01, 1826.11 examples/s]Map:  35%|███▍      | 1280/3687 [00:00<00:01, 1751.01 examples/s]Map:  44%|████▎     | 1611/3687 [00:00<00:01, 1860.92 examples/s]Map:  40%|████      | 1480/3687 [00:00<00:01, 1818.81 examples/s]Map:  49%|████▉     | 1813/3687 [00:00<00:00, 1904.66 examples/s]Map:  46%|████▌     | 1680/3687 [00:00<00:01, 1868.81 examples/s]Map:  57%|█████▋    | 2102/3687 [00:01<00:00, 1815.89 examples/s]Map:  51%|█████     | 1876/3687 [00:01<00:00, 1893.59 examples/s]Map:  62%|██████▏   | 2297/3687 [00:01<00:00, 1843.48 examples/s]Map:  57%|█████▋    | 2117/3687 [00:01<00:00, 1778.55 examples/s]Map:  68%|██████▊   | 2494/3687 [00:01<00:00, 1875.53 examples/s]Map:  63%|██████▎   | 2311/3687 [00:01<00:00, 1819.66 examples/s]Map:  73%|███████▎  | 2692/3687 [00:01<00:00, 1903.04 examples/s]Map:  68%|██████▊   | 2506/3687 [00:01<00:00, 1851.16 examples/s]Map:  78%|███████▊  | 2890/3687 [00:01<00:00, 1922.00 examples/s]Map:  73%|███████▎  | 2700/3687 [00:01<00:00, 1871.67 examples/s]Found cached dataset json (/root/.cache/huggingface/datasets/json/default-ae86c8fbb70435df/0.0.0/fe5dd6ea2639a6df622901539cb550cf8797e5a6b2dd7af1cf934bed8e233e6e)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 560.51it/s]
+DatasetDict({
+    train: Dataset({
+        features: ['instruction', 'input', 'output'],
+        num_rows: 3687
+    })
+})
+Map:  85%|████████▍ | 3131/3687 [00:01<00:00, 1797.88 examples/s]Map:  81%|████████  | 2986/3687 [00:01<00:00, 1879.69 examples/s]Map:  90%|█████████ | 3327/3687 [00:01<00:00, 1838.13 examples/s]Map:   0%|          | 0/3687 [00:00<?, ? examples/s]Map:  96%|█████████▌| 3525/3687 [00:01<00:00, 1871.41 examples/s]Map:  87%|████████▋ | 3218/3687 [00:01<00:00, 1757.40 examples/s]Map:   5%|▌         | 198/3687 [00:00<00:01, 1954.84 examples/s]                                                                 start train...
+Map:  93%|█████████▎| 3414/3687 [00:01<00:00, 1804.02 examples/s]Map:  11%|█         | 403/3687 [00:00<00:01, 2001.72 examples/s]Map:  98%|█████████▊| 3607/3687 [00:01<00:00, 1833.96 examples/s]Map:  16%|█▋        | 604/3687 [00:00<00:01, 1999.09 examples/s]                                                                 start train...
+Map:  22%|██▏       | 808/3687 [00:00<00:01, 2010.85 examples/s]Map:  30%|██▉       | 1104/3687 [00:00<00:01, 1859.21 examples/s]Map:  35%|███▌      | 1308/3687 [00:00<00:01, 1909.88 examples/s]Map:  41%|████      | 1511/3687 [00:00<00:01, 1940.95 examples/s]Map:  47%|████▋     | 1723/3687 [00:00<00:00, 1990.88 examples/s]Map:  54%|█████▍    | 2000/3687 [00:01<00:00, 1860.68 examples/s]Map:  60%|█████▉    | 2201/3687 [00:01<00:00, 1896.94 examples/s]Map:  65%|██████▌   | 2398/3687 [00:01<00:00, 1915.05 examples/s]Map:  71%|███████   | 2600/3687 [00:01<00:00, 1941.16 examples/s]Map:  76%|███████▌  | 2803/3687 [00:01<00:00, 1964.27 examples/s]Map:  84%|████████▍ | 3100/3687 [00:01<00:00, 1861.57 examples/s]Map:  90%|████████▉ | 3302/3687 [00:01<00:00, 1898.05 examples/s]Map:  95%|█████████▍| 3499/3687 [00:01<00:00, 1916.35 examples/s]                                                                 start train...
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+trainer.train
+trainer.train
+trainer.train
+/root/miniconda3/lib/python3.8/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/root/miniconda3/lib/python3.8/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/root/miniconda3/lib/python3.8/site-packages/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+You're using a BloomTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+You're using a BloomTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  0%|          | 0/7700 [00:00<?, ?it/s]You're using a BloomTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  0%|          | 1/7700 [00:04<8:55:04,  4.17s/it]  0%|          | 2/7700 [00:04<4:34:57,  2.14s/it]  0%|          | 3/7700 [00:05<3:04:54,  1.44s/it]  0%|          | 4/7700 [00:06<2:19:19,  1.09s/it]  0%|          | 5/7700 [00:06<1:52:43,  1.14it/s]  0%|          | 6/7700 [00:07<1:34:37,  1.36it/s]  0%|          | 7/7700 [00:07<1:21:09,  1.58it/s]  0%|          | 8/7700 [00:07<1:13:03,  1.75it/s]  0%|          | 9/7700 [00:08<1:06:49,  1.92it/s]  0%|          | 10/7700 [00:08<1:02:19,  2.06it/s]                                                   {'loss': 3.8029, 'learning_rate': 8e-05, 'epoch': 0.06}
+  0%|          | 10/7700 [00:08<1:02:19,  2.06it/s]  0%|          | 11/7700 [00:09<58:38,  2.19it/s]    0%|          | 12/7700 [00:09<56:44,  2.26it/s]  0%|          | 13/7700 [00:09<53:00,  2.42it/s]  0%|          | 14/7700 [00:10<51:51,  2.47it/s]  0%|          | 15/7700 [00:10<49:51,  2.57it/s]  0%|          | 16/7700 [00:10<47:17,  2.71it/s]  0%|          | 17/7700 [00:11<1:08:00,  1.88it/s]  0%|          | 18/7700 [00:12<1:17:21,  1.66it/s]  0%|          | 19/7700 [00:13<1:17:45,  1.65it/s]  0%|          | 20/7700 [00:13<1:14:37,  1.72it/s]                                                   {'loss': 3.5481, 'learning_rate': 7.98959687906372e-05, 'epoch': 0.13}
+  0%|          | 20/7700 [00:13<1:14:37,  1.72it/s]  0%|          | 21/7700 [00:14<1:11:52,  1.78it/s]  0%|          | 22/7700 [00:14<1:08:23,  1.87it/s]  0%|          | 23/7700 [00:15<1:04:21,  1.99it/s]  0%|          | 24/7700 [00:15<1:00:34,  2.11it/s]  0%|          | 25/7700 [00:15<57:29,  2.23it/s]    0%|          | 26/7700 [00:16<55:14,  2.32it/s]  0%|          | 27/7700 [00:16<53:14,  2.40it/s]  0%|          | 28/7700 [00:17<51:14,  2.50it/s]  0%|          | 29/7700 [00:17<49:48,  2.57it/s]  0%|          | 30/7700 [00:17<48:11,  2.65it/s]                                                 {'loss': 3.4477, 'learning_rate': 7.979193758127439e-05, 'epoch': 0.19}
+  0%|          | 30/7700 [00:17<48:11,  2.65it/s]  0%|          | 31/7700 [00:18<46:34,  2.74it/s]  0%|          | 32/7700 [00:18<43:56,  2.91it/s]  0%|          | 33/7700 [00:18<41:58,  3.04it/s]  0%|          | 34/7700 [00:19<1:09:11,  1.85it/s]  0%|          | 35/7700 [00:20<1:16:26,  1.67it/s]  0%|          | 36/7700 [00:21<1:14:53,  1.71it/s]  0%|          | 37/7700 [00:21<1:13:45,  1.73it/s]  0%|          | 38/7700 [00:22<1:11:23,  1.79it/s]  1%|          | 39/7700 [00:22<1:07:36,  1.89it/s]  1%|          | 40/7700 [00:22<1:02:29,  2.04it/s]                                                   {'loss': 3.3254, 'learning_rate': 7.968790637191158e-05, 'epoch': 0.26}
+  1%|          | 40/7700 [00:22<1:02:29,  2.04it/s]  1%|          | 41/7700 [00:23<58:54,  2.17it/s]    1%|          | 42/7700 [00:23<56:38,  2.25it/s]  1%|          | 43/7700 [00:24<53:56,  2.37it/s]  1%|          | 44/7700 [00:24<52:21,  2.44it/s]  1%|          | 45/7700 [00:24<50:29,  2.53it/s]  1%|          | 46/7700 [00:25<49:07,  2.60it/s]  1%|          | 47/7700 [00:25<47:13,  2.70it/s]  1%|          | 48/7700 [00:25<45:43,  2.79it/s]  1%|          | 49/7700 [00:26<43:26,  2.94it/s]  1%|          | 50/7700 [00:26<42:17,  3.02it/s]                                                 {'loss': 3.1114, 'learning_rate': 7.958387516254877e-05, 'epoch': 0.32}
+  1%|          | 50/7700 [00:26<42:17,  3.02it/s]  1%|          | 51/7700 [00:34<5:41:49,  2.68s/it]  1%|          | 52/7700 [00:35<4:24:50,  2.08s/it]  1%|          | 53/7700 [00:35<3:26:55,  1.62s/it]  1%|          | 54/7700 [00:36<2:45:00,  1.29s/it]  1%|          | 55/7700 [00:36<2:14:52,  1.06s/it]  1%|          | 56/7700 [00:37<1:49:53,  1.16it/s]  1%|          | 57/7700 [00:37<1:32:14,  1.38it/s]  1%|          | 58/7700 [00:38<1:19:11,  1.61it/s]  1%|          | 59/7700 [00:38<1:09:39,  1.83it/s]  1%|          | 60/7700 [00:38<1:03:03,  2.02it/s]                                                   {'loss': 3.3349, 'learning_rate': 7.947984395318596e-05, 'epoch': 0.39}
+  1%|          | 60/7700 [00:38<1:03:03,  2.02it/s]  1%|          | 61/7700 [00:39<58:06,  2.19it/s]    1%|          | 62/7700 [00:39<54:39,  2.33it/s]  1%|          | 63/7700 [00:39<51:16,  2.48it/s]  1%|          | 64/7700 [00:40<48:49,  2.61it/s]  1%|          | 65/7700 [00:40<45:11,  2.82it/s]  1%|          | 66/7700 [00:40<42:37,  2.98it/s]  1%|          | 67/7700 [00:48<5:19:00,  2.51s/it]  1%|          | 68/7700 [00:49<4:14:28,  2.00s/it]  1%|          | 69/7700 [00:49<3:22:50,  1.59s/it]  1%|          | 70/7700 [00:50<2:44:30,  1.29s/it]                                                   {'loss': 3.0925, 'learning_rate': 7.937581274382316e-05, 'epoch': 0.45}
+  1%|          | 70/7700 [00:50<2:44:30,  1.29s/it]  1%|          | 71/7700 [00:51<2:16:25,  1.07s/it]  1%|          | 72/7700 [00:51<1:54:41,  1.11it/s]  1%|          | 73/7700 [00:51<1:35:43,  1.33it/s]  1%|          | 74/7700 [00:52<1:22:02,  1.55it/s]  1%|          | 75/7700 [00:52<1:11:57,  1.77it/s]  1%|          | 76/7700 [00:53<1:04:53,  1.96it/s]  1%|          | 77/7700 [00:53<59:11,  2.15it/s]    1%|          | 78/7700 [00:53<55:04,  2.31it/s]  1%|          | 79/7700 [00:54<51:31,  2.47it/s]  1%|          | 80/7700 [00:54<49:13,  2.58it/s]                                                 {'loss': 3.2572, 'learning_rate': 7.927178153446035e-05, 'epoch': 0.52}
+  1%|          | 80/7700 [00:54<49:13,  2.58it/s]  1%|          | 81/7700 [00:54<46:21,  2.74it/s]  1%|          | 82/7700 [00:55<43:26,  2.92it/s]  1%|          | 83/7700 [00:55<41:41,  3.04it/s]  1%|          | 84/7700 [00:56<1:19:36,  1.59it/s]  1%|          | 85/7700 [00:57<1:25:24,  1.49it/s]  1%|          | 86/7700 [00:58<1:22:32,  1.54it/s]  1%|          | 87/7700 [00:58<1:19:10,  1.60it/s]  1%|          | 88/7700 [00:59<1:14:08,  1.71it/s]  1%|          | 89/7700 [00:59<1:08:15,  1.86it/s]  1%|          | 90/7700 [01:00<1:03:02,  2.01it/s]                                                   {'loss': 3.165, 'learning_rate': 7.916775032509753e-05, 'epoch': 0.58}
+  1%|          | 90/7700 [01:00<1:03:02,  2.01it/s]  1%|          | 91/7700 [01:00<59:09,  2.14it/s]    1%|          | 92/7700 [01:00<55:52,  2.27it/s]  1%|          | 93/7700 [01:01<53:11,  2.38it/s]  1%|          | 94/7700 [01:01<50:57,  2.49it/s]  1%|          | 95/7700 [01:01<49:24,  2.56it/s]  1%|          | 96/7700 [01:02<47:30,  2.67it/s]  1%|▏         | 97/7700 [01:02<47:01,  2.69it/s]  1%|▏         | 98/7700 [01:02<45:25,  2.79it/s]  1%|▏         | 99/7700 [01:03<44:26,  2.85it/s]  1%|▏         | 100/7700 [01:03<44:31,  2.85it/s]                                                  {'loss': 3.0802, 'learning_rate': 7.906371911573473e-05, 'epoch': 0.65}
+  1%|▏         | 100/7700 [01:03<44:31,  2.85it/s]  1%|▏         | 101/7700 [01:04<1:18:33,  1.61it/s]  1%|▏         | 102/7700 [01:05<1:19:45,  1.59it/s]  1%|▏         | 103/7700 [01:06<1:17:15,  1.64it/s]  1%|▏         | 104/7700 [01:06<1:13:43,  1.72it/s]  1%|▏         | 105/7700 [01:07<1:09:24,  1.82it/s]  1%|▏         | 106/7700 [01:07<1:06:04,  1.92it/s]  1%|▏         | 107/7700 [01:07<1:02:02,  2.04it/s]  1%|▏         | 108/7700 [01:08<58:20,  2.17it/s]    1%|▏         | 109/7700 [01:08<55:20,  2.29it/s]  1%|▏         | 110/7700 [01:09<53:09,  2.38it/s]                                                  {'loss': 3.3395, 'learning_rate': 7.895968790637192e-05, 'epoch': 0.71}
+  1%|▏         | 110/7700 [01:09<53:09,  2.38it/s]  1%|▏         | 111/7700 [01:09<51:06,  2.47it/s]  1%|▏         | 112/7700 [01:09<49:37,  2.55it/s]  1%|▏         | 113/7700 [01:10<47:40,  2.65it/s]  1%|▏         | 114/7700 [01:10<46:06,  2.74it/s]  1%|▏         | 115/7700 [01:10<44:16,  2.86it/s]  2%|▏         | 116/7700 [01:11<43:00,  2.94it/s]  2%|▏         | 117/7700 [01:12<1:04:39,  1.95it/s]  2%|▏         | 118/7700 [01:12<1:18:04,  1.62it/s]  2%|▏         | 119/7700 [01:13<1:20:18,  1.57it/s]  2%|▏         | 120/7700 [01:14<1:16:24,  1.65it/s]                                                    {'loss': 2.9646, 'learning_rate': 7.885565669700911e-05, 'epoch': 0.78}
+  2%|▏         | 120/7700 [01:14<1:16:24,  1.65it/s]  2%|▏         | 121/7700 [01:14<1:11:18,  1.77it/s]  2%|▏         | 122/7700 [01:15<1:07:17,  1.88it/s]  2%|▏         | 123/7700 [01:15<1:02:23,  2.02it/s]  2%|▏         | 124/7700 [01:15<58:57,  2.14it/s]    2%|▏         | 125/7700 [01:16<55:55,  2.26it/s]  2%|▏         | 126/7700 [01:16<53:35,  2.36it/s]  2%|▏         | 127/7700 [01:17<52:06,  2.42it/s]  2%|▏         | 128/7700 [01:17<50:20,  2.51it/s]  2%|▏         | 129/7700 [01:17<48:37,  2.60it/s]  2%|▏         | 130/7700 [01:18<46:55,  2.69it/s]                                                  {'loss': 3.2323, 'learning_rate': 7.87516254876463e-05, 'epoch': 0.84}
+  2%|▏         | 130/7700 [01:18<46:55,  2.69it/s]  2%|▏         | 131/7700 [01:18<44:54,  2.81it/s]  2%|▏         | 132/7700 [01:18<43:56,  2.87it/s]  2%|▏         | 133/7700 [01:19<42:32,  2.97it/s]  2%|▏         | 134/7700 [01:20<1:18:25,  1.61it/s]  2%|▏         | 135/7700 [01:21<1:26:33,  1.46it/s]  2%|▏         | 136/7700 [01:21<1:22:17,  1.53it/s]  2%|▏         | 137/7700 [01:22<1:17:26,  1.63it/s]  2%|▏         | 138/7700 [01:22<1:13:07,  1.72it/s]  2%|▏         | 139/7700 [01:23<1:08:40,  1.84it/s]  2%|▏         | 140/7700 [01:23<1:03:20,  1.99it/s]                                                    {'loss': 3.1083, 'learning_rate': 7.864759427828349e-05, 'epoch': 0.91}
+  2%|▏         | 140/7700 [01:23<1:03:20,  1.99it/s]  2%|▏         | 141/7700 [01:24<1:00:36,  2.08it/s]  2%|▏         | 142/7700 [01:24<57:08,  2.20it/s]    2%|▏         | 143/7700 [01:24<55:08,  2.28it/s]  2%|▏         | 144/7700 [01:25<52:16,  2.41it/s]  2%|▏         | 145/7700 [01:25<50:58,  2.47it/s]  2%|▏         | 146/7700 [01:25<49:32,  2.54it/s]  2%|▏         | 147/7700 [01:26<47:34,  2.65it/s]  2%|▏         | 148/7700 [01:26<45:10,  2.79it/s]  2%|▏         | 149/7700 [01:26<43:29,  2.89it/s]  2%|▏         | 150/7700 [01:27<42:05,  2.99it/s]                                                  {'loss': 2.8917, 'learning_rate': 7.854356306892068e-05, 'epoch': 0.97}
+  2%|▏         | 150/7700 [01:27<42:05,  2.99it/s]  2%|▏         | 151/7700 [01:28<1:00:30,  2.08it/s]  2%|▏         | 152/7700 [01:28<59:14,  2.12it/s]    2%|▏         | 153/7700 [01:28<55:53,  2.25it/s]  2%|▏         | 154/7700 [01:29<52:07,  2.41it/s]  2%|▏         | 155/7700 [01:33<3:12:07,  1.53s/it]  2%|▏         | 156/7700 [01:34<2:41:44,  1.29s/it]  2%|▏         | 157/7700 [01:34<2:15:15,  1.08s/it]  2%|▏         | 158/7700 [01:35<1:54:15,  1.10it/s]  2%|▏         | 159/7700 [01:35<1:37:30,  1.29it/s]  2%|▏         | 160/7700 [01:36<1:23:25,  1.51it/s]                                                    {'loss': 3.1827, 'learning_rate': 7.843953185955787e-05, 'epoch': 1.04}
+  2%|▏         | 160/7700 [01:36<1:23:25,  1.51it/s]  2%|▏         | 161/7700 [01:36<1:13:34,  1.71it/s]  2%|▏         | 162/7700 [01:36<1:05:49,  1.91it/s]  2%|▏         | 163/7700 [01:37<1:00:23,  2.08it/s]  2%|▏         | 164/7700 [01:37<56:15,  2.23it/s]    2%|▏         | 165/7700 [01:37<52:59,  2.37it/s]  2%|▏         | 166/7700 [01:38<50:20,  2.49it/s]  2%|▏         | 167/7700 [01:38<48:09,  2.61it/s]  2%|▏         | 168/7700 [01:38<47:13,  2.66it/s]  2%|▏         | 169/7700 [01:39<44:34,  2.82it/s]  2%|▏         | 170/7700 [01:39<42:57,  2.92it/s]                                                  {'loss': 2.8682, 'learning_rate': 7.833550065019506e-05, 'epoch': 1.1}
+  2%|▏         | 170/7700 [01:39<42:57,  2.92it/s]  2%|▏         | 171/7700 [01:47<5:12:33,  2.49s/it]  2%|▏         | 172/7700 [01:47<4:11:42,  2.01s/it]  2%|▏         | 173/7700 [01:48<3:20:15,  1.60s/it]  2%|▏         | 174/7700 [01:49<2:39:11,  1.27s/it]  2%|▏         | 175/7700 [01:49<2:11:30,  1.05s/it]  2%|▏         | 176/7700 [01:50<1:50:47,  1.13it/s]  2%|▏         | 177/7700 [01:50<1:32:40,  1.35it/s]  2%|▏         | 178/7700 [01:50<1:19:42,  1.57it/s]  2%|▏         | 179/7700 [01:51<1:10:05,  1.79it/s]  2%|▏         | 180/7700 [01:51<1:03:13,  1.98it/s]                                                    {'loss': 3.1866, 'learning_rate': 7.823146944083225e-05, 'epoch': 1.17}
+  2%|▏         | 180/7700 [01:51<1:03:13,  1.98it/s]  2%|▏         | 181/7700 [01:52<58:05,  2.16it/s]    2%|▏         | 182/7700 [01:52<54:22,  2.30it/s]  2%|▏         | 183/7700 [01:52<51:10,  2.45it/s]  2%|▏         | 184/7700 [01:53<48:42,  2.57it/s]  2%|▏         | 185/7700 [01:53<46:20,  2.70it/s]  2%|▏         | 186/7700 [01:53<44:13,  2.83it/s]  2%|▏         | 187/7700 [01:54<42:38,  2.94it/s]  2%|▏         | 188/7700 [01:55<1:07:29,  1.86it/s]  2%|▏         | 189/7700 [01:55<1:17:23,  1.62it/s]  2%|▏         | 190/7700 [01:56<1:15:24,  1.66it/s]                                                    {'loss': 2.9491, 'learning_rate': 7.812743823146944e-05, 'epoch': 1.23}
+  2%|▏         | 190/7700 [01:56<1:15:24,  1.66it/s]  2%|▏         | 191/7700 [01:56<1:12:20,  1.73it/s]  2%|▏         | 192/7700 [01:57<1:10:46,  1.77it/s]  3%|▎         | 193/7700 [01:58<1:07:22,  1.86it/s]  3%|▎         | 194/7700 [01:58<1:02:52,  1.99it/s]  3%|▎         | 195/7700 [01:58<58:52,  2.12it/s]    3%|▎         | 196/7700 [01:59<55:55,  2.24it/s]  3%|▎         | 197/7700 [01:59<53:28,  2.34it/s]  3%|▎         | 198/7700 [01:59<51:28,  2.43it/s]  3%|▎         | 199/7700 [02:00<49:54,  2.51it/s]  3%|▎         | 200/7700 [02:00<48:09,  2.60it/s]                                                  {'loss': 3.0805, 'learning_rate': 7.802340702210663e-05, 'epoch': 1.3}
+  3%|▎         | 200/7700 [02:00<48:09,  2.60it/s]  3%|▎         | 201/7700 [02:01<46:30,  2.69it/s]  3%|▎         | 202/7700 [02:01<43:56,  2.84it/s]  3%|▎         | 203/7700 [02:01<41:35,  3.00it/s]  3%|▎         | 204/7700 [02:01<39:43,  3.15it/s]  3%|▎         | 205/7700 [02:02<1:05:15,  1.91it/s]  3%|▎         | 206/7700 [02:03<1:14:04,  1.69it/s]  3%|▎         | 207/7700 [02:04<1:12:52,  1.71it/s]  3%|▎         | 208/7700 [02:04<1:10:25,  1.77it/s]  3%|▎         | 209/7700 [02:05<1:07:13,  1.86it/s]  3%|▎         | 210/7700 [02:05<1:03:11,  1.98it/s]                                                    {'loss': 2.9688, 'learning_rate': 7.791937581274382e-05, 'epoch': 1.36}
+  3%|▎         | 210/7700 [02:05<1:03:11,  1.98it/s]  3%|▎         | 211/7700 [02:06<59:23,  2.10it/s]    3%|▎         | 212/7700 [02:06<55:51,  2.23it/s]  3%|▎         | 213/7700 [02:06<53:26,  2.33it/s]  3%|▎         | 214/7700 [02:07<51:36,  2.42it/s]  3%|▎         | 215/7700 [02:07<49:45,  2.51it/s]  3%|▎         | 216/7700 [02:07<48:22,  2.58it/s]  3%|▎         | 217/7700 [02:08<46:39,  2.67it/s]  3%|▎         | 218/7700 [02:08<45:24,  2.75it/s]  3%|▎         | 219/7700 [02:08<42:47,  2.91it/s]  3%|▎         | 220/7700 [02:09<40:39,  3.07it/s]                                                  {'loss': 2.939, 'learning_rate': 7.781534460338103e-05, 'epoch': 1.43}
+  3%|▎         | 220/7700 [02:09<40:39,  3.07it/s]  3%|▎         | 221/7700 [02:10<1:06:51,  1.86it/s]  3%|▎         | 222/7700 [02:11<1:21:16,  1.53it/s]  3%|▎         | 223/7700 [02:11<1:23:42,  1.49it/s]  3%|▎         | 224/7700 [02:12<1:20:00,  1.56it/s]  3%|▎         | 225/7700 [02:12<1:15:57,  1.64it/s]  3%|▎         | 226/7700 [02:13<1:11:14,  1.75it/s]  3%|▎         | 227/7700 [02:13<1:05:52,  1.89it/s]  3%|▎         | 228/7700 [02:14<1:00:53,  2.05it/s]  3%|▎         | 229/7700 [02:14<57:20,  2.17it/s]    3%|▎         | 230/7700 [02:15<54:13,  2.30it/s]                                                  {'loss': 3.1682, 'learning_rate': 7.771131339401822e-05, 'epoch': 1.49}
+  3%|▎         | 230/7700 [02:15<54:13,  2.30it/s]  3%|▎         | 231/7700 [02:15<52:38,  2.37it/s]  3%|▎         | 232/7700 [02:15<51:19,  2.43it/s]  3%|▎         | 233/7700 [02:16<49:23,  2.52it/s]  3%|▎         | 234/7700 [02:16<48:13,  2.58it/s]  3%|▎         | 235/7700 [02:16<46:21,  2.68it/s]  3%|▎         | 236/7700 [02:17<43:37,  2.85it/s]  3%|▎         | 237/7700 [02:17<42:02,  2.96it/s]  3%|▎         | 238/7700 [02:18<1:10:28,  1.76it/s]  3%|▎         | 239/7700 [02:19<1:22:31,  1.51it/s]  3%|▎         | 240/7700 [02:20<1:20:59,  1.54it/s]                                                    {'loss': 3.0005, 'learning_rate': 7.76072821846554e-05, 'epoch': 1.56}
+  3%|▎         | 240/7700 [02:20<1:20:59,  1.54it/s]  3%|▎         | 241/7700 [02:20<1:17:03,  1.61it/s]  3%|▎         | 242/7700 [02:21<1:11:22,  1.74it/s]  3%|▎         | 243/7700 [02:21<1:05:56,  1.88it/s]  3%|▎         | 244/7700 [02:21<1:01:22,  2.02it/s]  3%|▎         | 245/7700 [02:22<57:51,  2.15it/s]    3%|▎         | 246/7700 [02:22<54:46,  2.27it/s]  3%|▎         | 247/7700 [02:23<52:47,  2.35it/s]  3%|▎         | 248/7700 [02:23<50:27,  2.46it/s]  3%|▎         | 249/7700 [02:23<48:27,  2.56it/s]  3%|▎         | 250/7700 [02:24<46:45,  2.66it/s]                                                  {'loss': 3.0267, 'learning_rate': 7.75032509752926e-05, 'epoch': 1.62}
+  3%|▎         | 250/7700 [02:24<46:45,  2.66it/s]  3%|▎         | 251/7700 [02:24<45:32,  2.73it/s]  3%|▎         | 252/7700 [02:24<43:07,  2.88it/s]  3%|▎         | 253/7700 [02:25<41:04,  3.02it/s]  3%|▎         | 254/7700 [02:25<39:30,  3.14it/s]  3%|▎         | 255/7700 [02:26<1:04:53,  1.91it/s]  3%|▎         | 256/7700 [02:27<1:12:49,  1.70it/s]  3%|▎         | 257/7700 [02:27<1:12:41,  1.71it/s]  3%|▎         | 258/7700 [02:28<1:08:47,  1.80it/s]  3%|▎         | 259/7700 [02:28<1:07:20,  1.84it/s]  3%|▎         | 260/7700 [02:29<1:03:13,  1.96it/s]                                                    {'loss': 3.0954, 'learning_rate': 7.739921976592979e-05, 'epoch': 1.69}
+  3%|▎         | 260/7700 [02:29<1:03:13,  1.96it/s]  3%|▎         | 261/7700 [02:29<59:24,  2.09it/s]    3%|▎         | 262/7700 [02:29<56:08,  2.21it/s]  3%|▎         | 263/7700 [02:30<53:29,  2.32it/s]  3%|▎         | 264/7700 [02:30<51:14,  2.42it/s]  3%|▎         | 265/7700 [02:31<49:18,  2.51it/s]  3%|▎         | 266/7700 [02:31<47:49,  2.59it/s]  3%|▎         | 267/7700 [02:31<46:46,  2.65it/s]  3%|▎         | 268/7700 [02:32<45:25,  2.73it/s]  3%|▎         | 269/7700 [02:32<42:34,  2.91it/s]  4%|▎         | 270/7700 [02:32<40:34,  3.05it/s]                                                  {'loss': 2.9261, 'learning_rate': 7.729518855656698e-05, 'epoch': 1.75}
+  4%|▎         | 270/7700 [02:32<40:34,  3.05it/s]  4%|▎         | 271/7700 [02:33<59:20,  2.09it/s]  4%|▎         | 272/7700 [02:34<1:13:23,  1.69it/s]  4%|▎         | 273/7700 [02:35<1:17:07,  1.60it/s]  4%|▎         | 274/7700 [02:35<1:13:27,  1.68it/s]  4%|▎         | 275/7700 [02:36<1:09:21,  1.78it/s]  4%|▎         | 276/7700 [02:36<1:07:29,  1.83it/s]  4%|▎         | 277/7700 [02:37<1:03:31,  1.95it/s]  4%|▎         | 278/7700 [02:37<59:42,  2.07it/s]    4%|▎         | 279/7700 [02:37<56:13,  2.20it/s]  4%|▎         | 280/7700 [02:38<53:37,  2.31it/s]                                                  {'loss': 3.1071, 'learning_rate': 7.719115734720417e-05, 'epoch': 1.82}
+  4%|▎         | 280/7700 [02:38<53:37,  2.31it/s]  4%|▎         | 281/7700 [02:38<51:36,  2.40it/s]  4%|▎         | 282/7700 [02:39<49:48,  2.48it/s]  4%|▎         | 283/7700 [02:39<47:32,  2.60it/s]  4%|▎         | 284/7700 [02:39<45:52,  2.69it/s]  4%|▎         | 285/7700 [02:39<42:51,  2.88it/s]  4%|▎         | 286/7700 [02:40<40:44,  3.03it/s]  4%|▎         | 287/7700 [02:40<39:06,  3.16it/s]  4%|▎         | 288/7700 [02:48<5:28:52,  2.66s/it]  4%|▍         | 289/7700 [02:49<4:19:52,  2.10s/it]  4%|▍         | 290/7700 [02:50<3:22:35,  1.64s/it]                                                    {'loss': 2.9569, 'learning_rate': 7.708712613784136e-05, 'epoch': 1.88}
+  4%|▍         | 290/7700 [02:50<3:22:35,  1.64s/it]  4%|▍         | 291/7700 [02:50<2:43:28,  1.32s/it]  4%|▍         | 292/7700 [02:51<2:12:34,  1.07s/it]  4%|▍         | 293/7700 [02:51<1:49:56,  1.12it/s]  4%|▍         | 294/7700 [02:52<1:32:43,  1.33it/s]  4%|▍         | 295/7700 [02:52<1:19:57,  1.54it/s]  4%|▍         | 296/7700 [02:52<1:10:57,  1.74it/s]  4%|▍         | 297/7700 [02:53<1:03:27,  1.94it/s]  4%|▍         | 298/7700 [02:53<58:00,  2.13it/s]    4%|▍         | 299/7700 [02:53<54:08,  2.28it/s]  4%|▍         | 300/7700 [02:54<50:29,  2.44it/s]                                                  {'loss': 3.0666, 'learning_rate': 7.698309492847855e-05, 'epoch': 1.95}
+  4%|▍         | 300/7700 [02:54<50:29,  2.44it/s]  4%|▍         | 301/7700 [02:54<48:13,  2.56it/s]  4%|▍         | 302/7700 [02:54<45:27,  2.71it/s]  4%|▍         | 303/7700 [02:55<42:49,  2.88it/s]  4%|▍         | 304/7700 [02:55<40:27,  3.05it/s]  4%|▍         | 305/7700 [02:56<54:03,  2.28it/s]  4%|▍         | 306/7700 [02:56<53:08,  2.32it/s]  4%|▍         | 307/7700 [02:56<50:21,  2.45it/s]  4%|▍         | 308/7700 [02:57<46:20,  2.66it/s]  4%|▍         | 309/7700 [03:01<3:09:22,  1.54s/it]  4%|▍         | 310/7700 [03:02<2:39:57,  1.30s/it]                                                    {'loss': 2.7881, 'learning_rate': 7.687906371911574e-05, 'epoch': 2.01}
+  4%|▍         | 310/7700 [03:02<2:39:57,  1.30s/it]  4%|▍         | 311/7700 [03:02<2:13:37,  1.09s/it]  4%|▍         | 312/7700 [03:03<1:53:43,  1.08it/s]  4%|▍         | 313/7700 [03:03<1:37:55,  1.26it/s]  4%|▍         | 314/7700 [03:04<1:24:17,  1.46it/s]  4%|▍         | 315/7700 [03:04<1:13:54,  1.67it/s]  4%|▍         | 316/7700 [03:05<1:05:57,  1.87it/s]  4%|▍         | 317/7700 [03:05<1:00:25,  2.04it/s]  4%|▍         | 318/7700 [03:05<55:57,  2.20it/s]    4%|▍         | 319/7700 [03:06<52:32,  2.34it/s]  4%|▍         | 320/7700 [03:06<49:20,  2.49it/s]                                                  {'loss': 3.1222, 'learning_rate': 7.677503250975293e-05, 'epoch': 2.08}
+  4%|▍         | 320/7700 [03:06<49:20,  2.49it/s]  4%|▍         | 321/7700 [03:06<47:08,  2.61it/s]  4%|▍         | 322/7700 [03:07<44:37,  2.76it/s]  4%|▍         | 323/7700 [03:07<41:54,  2.93it/s]  4%|▍         | 324/7700 [03:07<39:58,  3.08it/s]  4%|▍         | 325/7700 [03:08<57:15,  2.15it/s]  4%|▍         | 326/7700 [03:09<1:11:38,  1.72it/s]  4%|▍         | 327/7700 [03:10<1:15:28,  1.63it/s]  4%|▍         | 328/7700 [03:10<1:12:53,  1.69it/s]  4%|▍         | 329/7700 [03:11<1:10:17,  1.75it/s]  4%|▍         | 330/7700 [03:11<1:06:12,  1.86it/s]                                                    {'loss': 2.9034, 'learning_rate': 7.667100130039013e-05, 'epoch': 2.14}
+  4%|▍         | 330/7700 [03:11<1:06:12,  1.86it/s]  4%|▍         | 331/7700 [03:12<1:01:46,  1.99it/s]  4%|▍         | 332/7700 [03:12<58:06,  2.11it/s]    4%|▍         | 333/7700 [03:12<55:36,  2.21it/s]  4%|▍         | 334/7700 [03:13<53:35,  2.29it/s]  4%|▍         | 335/7700 [03:13<50:57,  2.41it/s]  4%|▍         | 336/7700 [03:14<49:32,  2.48it/s]  4%|▍         | 337/7700 [03:14<47:24,  2.59it/s]  4%|▍         | 338/7700 [03:14<45:52,  2.67it/s]  4%|▍         | 339/7700 [03:15<44:00,  2.79it/s]  4%|▍         | 340/7700 [03:15<41:52,  2.93it/s]                                                  {'loss': 2.8949, 'learning_rate': 7.656697009102731e-05, 'epoch': 2.21}
+  4%|▍         | 340/7700 [03:15<41:52,  2.93it/s]  4%|▍         | 341/7700 [03:15<39:57,  3.07it/s]  4%|▍         | 342/7700 [03:16<1:06:53,  1.83it/s]  4%|▍         | 343/7700 [03:17<1:16:59,  1.59it/s]  4%|▍         | 344/7700 [03:18<1:19:19,  1.55it/s]  4%|▍         | 345/7700 [03:18<1:17:45,  1.58it/s]  4%|▍         | 346/7700 [03:19<1:12:42,  1.69it/s]  5%|▍         | 347/7700 [03:19<1:08:09,  1.80it/s]  5%|▍         | 348/7700 [03:20<1:03:40,  1.92it/s]  5%|▍         | 349/7700 [03:20<59:23,  2.06it/s]    5%|▍         | 350/7700 [03:21<55:39,  2.20it/s]                                                  {'loss': 3.0846, 'learning_rate': 7.64629388816645e-05, 'epoch': 2.27}
+  5%|▍         | 350/7700 [03:21<55:39,  2.20it/s]  5%|▍         | 351/7700 [03:21<53:01,  2.31it/s]  5%|▍         | 352/7700 [03:21<50:26,  2.43it/s]  5%|▍         | 353/7700 [03:22<48:36,  2.52it/s]  5%|▍         | 354/7700 [03:22<46:34,  2.63it/s]  5%|▍         | 355/7700 [03:22<45:10,  2.71it/s]  5%|▍         | 356/7700 [03:23<42:16,  2.90it/s]  5%|▍         | 357/7700 [03:23<40:14,  3.04it/s]  5%|▍         | 358/7700 [03:23<38:40,  3.16it/s]

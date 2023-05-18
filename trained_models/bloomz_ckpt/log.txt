@@ -1,0 +1,24 @@
+2023-05-18 14:00:54 - finetune.py[line:66] - INFO: args.__dict__ : {'model_config_file': 'run_config/Bloom_config.json', 'deepspeed': None, 'resume_from_checkpoint': False, 'lora_hyperparams_file': 'run_config/lora_hyperparams_bloom.json', 'use_lora': True, 'local_rank': None}
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_type : bloom
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: model_name_or_path : /root/autodl-tmp/jiangxia/base_model/BLOOMZ_7B
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: data_path : data_dir/zh_data.json
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: output_dir : trained_models/bloomz_ckpt
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: batch_size : 32
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: per_device_train_batch_size : 4
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: num_epochs : 50
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: learning_rate : 8e-05
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: cutoff_len : 1024
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_size : 0
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: val_set_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: save_steps : 4000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: eval_steps : 1000
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: logging_steps : 10
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: weight_decay : 0.001
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: warmup_rate : 0.1
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: lr_scheduler : linear
+2023-05-18 14:00:54 - finetune.py[line:68] - INFO: gradient_accumulation_steps : 8
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_r : 8
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_alpha : 16
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_dropout : 0.05
+2023-05-18 14:01:26 - finetune.py[line:150] - INFO: lora_target_modules : ['query_key_value']
