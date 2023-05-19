@@ -1,7 +1,6 @@
 # ZhenHuanBot
 使用甄嬛传剧本数据以LoRA方式训练BLOOMZ模型，实现以甄嬛口吻对不同人物进行不同回答的Bot
 
-<img width="905" alt="image" src="https://github.com/JiangXiaElves/ZhenHuanBot/assets/133947013/cdf10ebb-53b5-49cf-98dd-fe3fd9fdef50">
 
 
 ## 基础模型
