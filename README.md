@@ -28,4 +28,4 @@ jiangxiaelves@163.com
 
 ## 技术交流
 如果你对大模型技术感兴趣，可以加入我们的群聊，每天会有第一手的AIGC新闻、学习资料、落地经验分享，群主为字节算法专家，方向为大模型研发与应用落地，将为你提供大模型学习和落地方面的帮助，让我们在大模型领域共同进步
-![WechatIMG218](https://github.com/JiangXiaElves/ZhenHuanBot/assets/133947013/5e6b525c-4543-46a1-a95a-847e549d272e)
+![WechatIMG219](https://github.com/JiangXiaElves/ZhenHuanBot/assets/133947013/6b3b438b-62e6-4eb5-9df1-7e745fc8596c)
